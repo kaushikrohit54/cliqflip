@@ -8,7 +8,10 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
-
+.product-thumbnails .col {
+    margin-bottom: 10px !important;
+    padding: 8px !important;
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
