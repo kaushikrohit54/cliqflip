@@ -13,7 +13,7 @@
 
 <body <?php body_class(); ?>>
 
-<div id="main-content" class="site-main" style="max-width:1000px; margin:60px auto 60px auto;">
+<div id="main-content" class="site-main fef">
 
 	<div id="main" class="page-wrapper box-shadow page-checkout" style="padding:15px 30px 15px;">
 
