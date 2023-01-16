@@ -6,13 +6,13 @@ if(!function_exists('flatsome_woocommerce_before_cart_totals')) {
           <table cellspacing="0">
           <thead>
               <tr>
-                  <th class="product-name" colspan="2" style="border-width:3px;"><?php _e( 'Cart totals', 'woocommerce' ); ?></th>
+                  <th class="product-name fef" colspan="2" style="border-width:3px;"><?php _e( 'Cart totals', 'woocommerce' ); ?></th>
               </tr>
           </thead>
           </table>
   <?php }
 }
-add_action( 'woocommerce_before_cart_totals', 'flatsome_woocommerce_before_cart_totals' );
+// add_action( 'woocommerce_before_cart_totals', 'flatsome_woocommerce_before_cart_totals' );
 
 
 // Custom Thank You Html

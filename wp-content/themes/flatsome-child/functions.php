@@ -66,3 +66,4 @@ add_filter( 'woocommerce_product_tabs', function( $tabs ) {
 	};
 	return $tabs;
 }, 98 );
+

@@ -13,6 +13,8 @@ Version: 3.0
     padding: 8px !important;
 }.flickity-slider .col.is-selected.is-nav-selected {
     border: 2px solid #007beb;
+}.cart_totals>h2{
+    display: block !important;
 }
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
