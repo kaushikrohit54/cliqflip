@@ -40,6 +40,14 @@ Version: 3.0
     color: #757575;
 }.homeIcon {
     padding: 5px 0px;
+}.sticky-add-to-cart--active .quantity.buttons_added {
+    display: none !important;
+}.sticky-add-to-cart--active{
+    bottom: 60px;
 }
-
+.sticky-add-to-cart--active button.single_add_to_cart_button.button.alt.wp-element-button, .sticky-add-to-cart--active button#sbw_wc-adding-button {
+    float: left !important;
+    width: 45%;
+    margin: 2.5%;
+}
 }
