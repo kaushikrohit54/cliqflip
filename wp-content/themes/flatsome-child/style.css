@@ -20,6 +20,9 @@ Version: 3.0
     color: #d26e4b !important;
    
 }.mobileFooterNav{display: none !important;}
+.shop_attributes .woocommerce-product-attributes-item--weight:nth-child(1), .shop_attributes .woocommerce-product-attributes-item--dimensions:nth-child(2) {
+    display: none;
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 .mobileFooterNav {
